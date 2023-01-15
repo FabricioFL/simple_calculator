@@ -1,7 +1,5 @@
-def menu()
-    system('cls')
-    system('clear')
-    puts "----------------------------------------\n\n    multi-purpose Console calculator\n\n----------------------------------------"
-end
+require './Menu'
 
-menu()
+app = Menu.new
+
+app.initial_menu
